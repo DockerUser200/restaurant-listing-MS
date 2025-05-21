@@ -28,10 +28,10 @@ public class RestaurantServiceTest {
 //    }
 
     @InjectMocks
-    RestaurantService restaurantService;
+    private RestaurantService restaurantService;
 
     @Mock
-    RestaurantRepository restaurantRepository;
+    private RestaurantRepository restaurantRepository;
 
     @Test
     public void testFindAllRestaurants() {

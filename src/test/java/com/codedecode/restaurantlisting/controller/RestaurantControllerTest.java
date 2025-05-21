@@ -22,10 +22,10 @@ import static org.mockito.Mockito.*;
 public class RestaurantControllerTest {
 
     @InjectMocks
-    RestaurantController restaurantController;
+    private RestaurantController restaurantController;
 
     @Mock
-    RestaurantService restaurantService;
+    private RestaurantService restaurantService;
 
 //    @BeforeEach
 //    public void setup() {
